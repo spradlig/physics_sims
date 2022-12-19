@@ -1,0 +1,10 @@
+{
+  "__version": "0.1",
+  "__comments": "Example clutter. This type of file should hold just 1 clutter model.",
+  "object": {
+    "module": "env",
+    "class": "",
+    "args": {
+    }
+  }
+}

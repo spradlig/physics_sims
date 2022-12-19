@@ -1,0 +1,18 @@
+{
+  "__comment": "Example sensor. This type of file should hold just 1 example sensor.",
+  "__is_required": "true",
+  "object": {
+    "module": "sensors",
+    "class": "Truth",
+    "args": {
+    },
+    "noise": {
+      "object": {
+        "module": "sensors.noise",
+        "class": "Zero",
+        "args": {
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "__version": "0.1",
+  "__comments": "Default World",
+  "world": {
+    "__comment": "Define the World class instantiation args.",
+    "__is_required": "true",
+    "inertial_frame": {
+      "object": {
+        "module": "env",
+        "class": "CartesianInertial",
+        "args": {}
+      }
+    },
+    "clock": 0.0,
+    "timestep": 0.001,
+    "forces": {
+      "gravity": {
+        "object": {
+          "module": "env.forces",
+          "class": "Gravity",
+          "args": {}
+        }
+      }
+    },
+    "objects": {},
+    "clutter": {
+      "name": "Example Clutter",
+      "reference": "example_clutter.json",
+      "override": {}
+    },
+    "extra_events": {}
+  }
+}
